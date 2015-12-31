@@ -1,0 +1,3 @@
+interface IResource {
+	// base interface
+}

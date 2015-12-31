@@ -23,7 +23,7 @@ function createMainWindow() {
 		height: 400
 	});
 
-	win.loadURL(`file://${__dirname}/../website/dist/index.html`);
+	win.loadURL(`file://${__dirname}/../app/dist/index.html`);
 	win.on('closed', onClosed);
 
 	return win;
